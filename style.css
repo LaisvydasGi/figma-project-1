@@ -1,0 +1,90 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fdf4ec;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button-large {
+  /* pasiimam iš puslapio: */
+  background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+  box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+  color: white;
+  border-radius: 2px;
+  padding: 27px 186px 26px 28px;
+
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-header {
+  background-color: brown;
+}
+
+.main-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-menu a {
+  /* default inline elementai neturi padding-top/bottom, todėl uždedam kitą display*/
+  display: inline-block;
+  padding: 5px 15px;
+
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+a.button-small {
+  /* pasiimam iš puslapio: */
+  background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%), linear-gradient(102.3deg, #0BB1E3 -4.62%, #0F2976 178.22%), #0E70AF;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px;
+
+  font-size: 16px;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero-box {
+  background-color: black;
+  color: white;
+}
